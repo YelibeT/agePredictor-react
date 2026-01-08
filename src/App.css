@@ -1,21 +1,22 @@
-*{
-  margin:0;
+* {
+  margin: 0;
   padding: 0;
   background-color: rgb(230, 98, 98);
 }
-.container{
+.container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   height: 100vh;
   background-color: rgb(255, 152, 152);
 }
-h1{
+h1 {
   padding: 10px;
 }
-.form{
+.form {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -23,14 +24,17 @@ h1{
   gap: 15px;
   font-weight: 600;
 }
-button{
+button {
   padding: 5px;
-  margin-bottom:10px;
-  border-radius:10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
   background-color: rgb(255, 152, 152);
 }
-input{
-  width:80%;
-  border:1px solid black;
+input {
+  width: 80%;
+  border: 1px solid black;
   padding: 5px;
+}
+h2,p{
+  padding: 10px;
 }
