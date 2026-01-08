@@ -1,0 +1,36 @@
+*{
+  margin:0;
+  padding: 0;
+  background-color: rgb(230, 98, 98);
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  height: 100vh;
+  background-color: rgb(255, 152, 152);
+}
+h1{
+  padding: 10px;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  font-weight: 600;
+}
+button{
+  padding: 5px;
+  margin-bottom:10px;
+  border-radius:10px;
+  background-color: rgb(255, 152, 152);
+}
+input{
+  width:80%;
+  border:1px solid black;
+  padding: 5px;
+}
